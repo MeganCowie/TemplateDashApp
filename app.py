@@ -10,6 +10,7 @@ import Controls
 import Callbacks
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 ##################################################################
 ##################################################################
