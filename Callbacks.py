@@ -27,7 +27,7 @@ def fig(slider_exponent):
         name = "xy", mode='lines',
         line_color=color_darkgrey
         ))
-    fig.update_layout(title='Raw Data',
-                      xaxis_title='time (s)', yaxis_title='intensity (V)',
+    fig.update_layout(title='Plot',
+                      xaxis_title='x', yaxis_title='y=x^(exponent)',
                       transition_duration=500)
     return fig

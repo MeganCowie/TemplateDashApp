@@ -11,13 +11,13 @@ import Callbacks
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-
-#############################################################################
+##################################################################
+##################################################################
 # LAYOUT
 
 app.layout = dbc.Container(
     [
-        html.H1(children='Title Here'),
+        html.H1(children='Template Dash App'),
         html.Hr(),
 
         dbc.Row([
@@ -25,13 +25,6 @@ app.layout = dbc.Container(
             dbc.Col(dcc.Graph(id="RawDataGraph"), md=8),
         ], align="center",),
         html.Hr(),
-
-#        dbc.Row([
-#            dbc.Col(BulkControls.Bulk_Cards, md=4),
-#            dbc.Col(dcc.Graph(id="BulkGraph"), md=8),
-#        ], align="center",),
-#        html.Hr(),
-
     ],
     fluid=True,
 )
