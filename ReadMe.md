@@ -1,6 +1,6 @@
-This is a template Dash app.
+# Template Dash App
 
-It contains four parts:
+This app contains four parts:
 1) app.py
 2) Controls.py
 3) Callbacks.py
@@ -24,7 +24,9 @@ calculation that needs to be called in a Callback must be inside a function so
 that the calculation is re-done every time the Callback is called (by updating a
 control).
 
-
-
 There's a ton of redundancy in organizing the app this way, but I find that it
 helps keep things readable as apps get large.
+
+![image](https://user-images.githubusercontent.com/78166226/137530603-5233c1bf-c5ac-4b6a-a240-99ee07bcf3f4.png)
+
+
