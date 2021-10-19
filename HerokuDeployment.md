@@ -30,4 +30,4 @@ https://devcenter.heroku.com/articles/getting-started-with-python#set-up
 8. Within the website interface, it's easy to rename the deployed app and find the link. 
 
 
-I don't know why this has been so challenging. This is exactly the instructions on their website. I guess knowing exactly what files to include and not understanding why it didn't work on the command prompt or Powershell were my main slowdowns. 
+I don't know why this has been so challenging. This is exactly the instructions on their website. I guess knowing exactly what files to include and not understanding why it didn't work on the command prompt or Powershell were my main slowdowns. Oh also knowing to add guinicorn manually is a bit sneaky, since neither Pip nor the Atom package seem to find it. 
